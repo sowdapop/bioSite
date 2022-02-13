@@ -1,0 +1,29 @@
+#page {
+    font-family: 'Lato', 'Roboto Slab', sans-serif;
+}
+
+h1  {
+    font-family: 'Lato', 'Roboto Slab', sans-serif;
+    float: center;
+}
+
+#nav {
+    font-family: 'Lato', 'Roboto Slab', sans-serif;
+    font-size: 14px;
+    height: 10em;
+    padding: 0.5em 0;
+    margin-bottom: 1em;
+    background-color: #bdc3c7;
+    
+}
+
+li{
+    display: inline;
+
+}
+
+.column1, .column2, .column3 {
+    width: 31.3%;
+    float: left;
+    margin: 1%;
+}
