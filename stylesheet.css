@@ -1,4 +1,4 @@
-#page {
+#page-title {
     font-family: 'Lato', 'Roboto Slab', sans-serif;
 }
 
@@ -10,15 +10,15 @@ h1  {
 #nav {
     font-family: 'Lato', 'Roboto Slab', sans-serif;
     font-size: 14px;
-    height: 10em;
-    padding: 0.5em 0;
-    margin-bottom: 1em;
+    height: 2em;
     background-color: #bdc3c7;
     
 }
 
 li{
     display: inline;
+    padding-inline-start: 2em;
+    padding-inline-end: 2em;
 
 }
 
