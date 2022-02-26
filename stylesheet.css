@@ -1,28 +1,22 @@
 #page-title {
     font-family: 'Lato', 'Roboto Slab', sans-serif;
     color: whitesmoke;
+    margin: 0;
     text-align: center;
-}
+    padding: 15px;
 
-img {
-    height: 400px;
-    width: 350;
 }
-body {
-    background-image: url("images/woodtexture2.jpg");
-       }
-
 
 #h1  {
     font-family: 'Lato', 'Roboto Slab', sans-serif;
     float: center;
+    font-weight: 400;
 }
 
 #nav {
     font-family: 'Lato', 'Roboto Slab', sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     color: whitesmoke;
-    
 }
 
 li{
@@ -32,13 +26,140 @@ li{
 
 }
 
-.column1, .column2, .column3 {
-    width: 31.3%;
+#nav a {
     float: left;
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#nav a:hover    {
+    color: darkred;
+}
+#nav a:active   {
+    color: darkgray;
+}
+#nav a:visited  {
+    color: white;
+}
+
+body {
+    background-image: url("images/woodtexture2.jpg");
 }
 
 p   {
     font-family: 'Lato', 'Roboto Slab', sans-serif;
     font-size: 16px;
     color: whitesmoke;
+    text-align: center;
+}
+
+.column1, .column2, .column3 {
+    width: 33%;
+    float: left;
+}
+
+#tools  {
+    height: 375px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 10px 10px black;
+}
+
+#table  {
+    height: 400px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 10px 10px black;
+}
+
+#wes-kenz   {
+    height: 400px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 10px 10px black;
+}
+.about   {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 25% 0 30%;
+    font-weight: 500;
+}
+
+#portrait {
+    float: right;
+    height: 400px;
+    width: auto;
+    box-shadow: 10px 10px black;
+    padding-left: 5%;  
+}
+
+h3  {
+    font-family: 'Lato', 'Roboto Slab', sans-serif;
+    text-align: center;
+    color: whitesmoke;
+}
+
+#chair   {
+    height: 400px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 10px 10px black;
+    margin-bottom: 5%;
+}
+
+#basketball  {
+    height: 400px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 10px 10px black;
+    margin-bottom: 5%;
+}
+
+#family  {
+    height: 350px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 10px 10px black;
+    margin-bottom: 5%;
+}
+
+footer {
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    color: #FFF;
+    font-weight: 400;
+    float: center;
+    padding-right: 10px;
+    font-style: italic;
+    font-size: .75em;
+}
+
+footer a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
